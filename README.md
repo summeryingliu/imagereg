@@ -11,9 +11,13 @@ Notice that pygfl can be installed through pip, it requires numpy, scipy, networ
 
 
 ## Tutorial
-The main function of this package is in the sir3D.py  Implement.py is a implementation example code. The X and Y however is for the ADHD200 data that we cannot release the data here.
+The main function of this package is in the sir3D.py 
 
-There is a distributional version for the main function TVTR
+Implement.py is a implementation example code. The data in the example however is for the ADHD200 initiative that we cannot release the data here. 
+
+There is a distributional version for the main function TVTR to utilize multiple cores and when the data size challenges the memory limit. It is especially useful when the number of subjects and total number of edges are large in 3D implementations. The code is provided in distributedTVTR.py.
+
+
 Tensor can be arbitrary dimension by user’s self-defined edges. Here we provide a function creating adjacency matrix for grid.
 
 For example, if the outcome is 1-D time series of 500 time points, we can use the following code to create a nature adjacency matrix assumming adjacent time has similar outcome.
