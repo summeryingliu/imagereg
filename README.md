@@ -1,5 +1,4 @@
 # imagereg
-This is the code for our paper https://arxiv.org/abs/1703.05264.
 The method is called Total Variation Regularized Tensor-on-scalar Regression.
 The proposed method and algorithm solves a regression problem with tensor as outcome and a scalar as predictor.  We encourage smoothness
 for adjacent predicted means by imposing a TV regularization. Here, we provide code for implementation for 1-D 2-D and 3-D tensor outcome regression problems.
